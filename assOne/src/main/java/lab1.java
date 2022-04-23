@@ -17,17 +17,7 @@ public class watermelon {
         return "no";
     }
 
-    boolean boolWatermelon (float a){
-        if (a==2){
-            return false;
-        }
-        if (a%2==0){
-            return true;
-        }
-
-        else
-            return false;
-    }
+  
 
     public static boolean is_valid(int force){
         if(force >=-100 && force <=100)
