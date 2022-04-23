@@ -12,15 +12,7 @@ public class watermelonTest {
     }
 
 
-    @Test
-    public void  boolWatermelon (){
-        watermelon watermelon  = new watermelon();
-        assertTrue(watermelon.boolWatermelon(22));
-        assertFalse(watermelon.boolWatermelon(15));
-
-    }
-
-
+ 
     @Test
     public void is_valid() {
         int[] testcases = {-200,-100,-5, 0, 1, 2, 8, 55, 100, 105};
